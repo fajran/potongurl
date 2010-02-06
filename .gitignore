@@ -8,5 +8,5 @@ downloads
 eggs
 parts
 src/*.egg-info
-potong.db
+potongurl.db
 *.swp

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="show">
+<p><span>New URL</span> <input id="url" type="text" value="{{ link.new_url }}"/></p>
+<p><span>Original</span> <textarea id="original">{{ link.url }}</textarea></p>
+</div>
+<script type="text/javascript">
+document.getElementById('url').select();
+</script>
+{% endblock %}
+

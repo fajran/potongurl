@@ -1,0 +1,5 @@
+{
+    "stat": "ok",
+    "hash": "{{ link.hash }}",
+    "url": "{{ link.new_url }}"
+}

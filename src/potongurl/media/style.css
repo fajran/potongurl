@@ -1,0 +1,64 @@
+html, body, h1 {
+    margin: 0px;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana", sans-serif;
+}
+
+h1 {
+    background: #A02810;
+    color: white;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+h1 a {
+    color: white;
+    text-decoration: none;
+}
+h1 a:hover {
+    text-decoration: underline;
+}
+
+#index {
+    width: 600px;
+    margin: auto;
+}
+#index p label {
+    width: 100px;
+    float: left;
+    text-align: right;
+    margin-top: 10px;
+}
+#index form #url {
+    width: 400px;
+    padding: 5px;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+#show {
+    width: 600px;
+    margin: auto;
+}
+#show #url {
+    width: 400px;
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+#show #original {
+    width: 400px;
+    padding: 2px;
+    margin-left: 10px;
+}
+#show p span {
+    width: 100px;
+    float: left;
+    text-align: right;
+    margin-top: 10px;
+}
+
+
